@@ -10,7 +10,7 @@ export default function Navigation() {
             <Container>
                 <Navbar.Brand>
                     <img
-                      src="logo.png"
+                      src="./logo.png"
                       width="35"
                       height="35"  
                       alt=""
@@ -18,9 +18,9 @@ export default function Navigation() {
                     />
                 </Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link as={Link} to="/">Home</Nav.Link>
-                    <Nav.Link as={Link} to="/about">About</Nav.Link>
-                    <Nav.Link as={Link} to="/Experience">Experience</Nav.Link>
+                    <Nav.Link as={Link} to="/my-react-app">Home</Nav.Link>
+                    <Nav.Link as={Link} to="/my-react-app/about">About</Nav.Link>
+                    <Nav.Link as={Link} to="/my-react-app/Experience">Experience</Nav.Link>
                 </Nav>
             </Container>
           </Navbar>
