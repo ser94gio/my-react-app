@@ -13,7 +13,7 @@ export default function Navigation() {
                       src="./logo.png"
                       width="35"
                       height="35"  
-                      alt=""
+                      alt="Logo"
                       className="d-inline-block align-top"
                     />
                 </Navbar.Brand>

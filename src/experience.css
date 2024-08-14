@@ -42,7 +42,10 @@
     width: 75%;
     margin: auto;
   }
-  
+  tbody {
+    text-align: left;
+    font-size: medium;
+  }
   .App-link {
     color: #61dafb;
   }
